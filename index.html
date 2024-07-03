@@ -1,22 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adega Nobre</title>
-   <link rel="stylesheet" href="style.css">   
+    <title>Vinhos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-    <h1>Adega Nobre</h1>
-    <img class="menu" src="UVA.jpg" alt="menu">
-</header>
-    
-<section>
-Bem-vindo ao Adega Nobre
-Aqui você encontrará tudo o que precisa saber sobre vinhos: desde a produção até a degustação. Explore nossas seções e descubra um mundo de sabores!
-</section>
+    <header>
+        <h1>Bem-vindo ao Mundo dos Vinhos</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#list">Lista de Vinhos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="home">
+            <h2>Sobre Vinhos</h2>
+            <p>Descubra a arte de apreciar vinhos. Explore os diferentes tipos, sabores e regiões produtoras.</p>
+        </section>
+
+        <section id="list">
+            <h2>Lista de Vinhos</h2>
+            <ul id="wine-list">
+                <!-- A lista de vinhos será preenchida dinamicamente pelo JavaScript -->
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Vinhos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
