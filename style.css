@@ -1,5 +1,6 @@
 header{
     background-color: rgb(109, 32, 182);
+    display: flex;
 }
 .menu{
     width: 5%;
