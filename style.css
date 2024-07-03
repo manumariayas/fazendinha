@@ -1,7 +1,10 @@
 header{
     background-color: rgb(109, 32, 182);
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
 .menu{
-    width: 5%;
+    width: 15%;
 }
